@@ -11,3 +11,4 @@ export const urls = {
   modelDownloadFile: (modelId: string, filename: string) => `${HF_DOMAIN}/${modelId}/resolve/main/${filename}`,
   modelWebPage: (modelId: string) => `${HF_DOMAIN}/${modelId}`,
 };
+export const SYSTEM_PROMPT = `Sen Kratox adında akıllı, samimi ve hızlı bir kişisel yapay zeka asistanısın. Kullanıcının sorularına net ve doğrudan yanıt ver.`;
